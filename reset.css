@@ -104,10 +104,14 @@ menu {
 /* Links */
 /* ============================= */
 
+a,
+button {
+    cursor: pointer;
+}
+
 a {
     text-decoration: none;
     color: inherit;
-    cursor: pointer;
     background-color: transparent;
 }
 
@@ -121,7 +125,6 @@ optgroup,
 textarea,
 select,
 fieldset {
-    margin: 0;
     border-width: 0;
     font-family: inherit;
     font-size: inherit;
@@ -134,7 +137,6 @@ fieldset {
 button {
     background: none;
     border: none;
-    cursor: pointer;
 }
 
 /* allow text selection in inputs */

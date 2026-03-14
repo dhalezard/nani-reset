@@ -16,5 +16,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/dhalezard/nani-reset.git"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3"
   }
 }
