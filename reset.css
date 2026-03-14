@@ -1,0 +1,169 @@
+/* 
+    nani-reset v1.0
+    By Nani @dhalezard
+    A modern, minimal and consistent CSS reset
+
+    github repo:
+    https://github.com/dhalezard/nani-reset
+*/
+
+/* ============================= */
+/* Root defaults */
+/* ============================= */
+
+:root {
+    font-synthesis: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* ============================= */
+/* Box model */
+/* ============================= */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* ============================= */
+/* Remove default spacing */
+/* ============================= */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ============================= */
+/* Document defaults */
+/* ============================= */
+
+html,
+body {
+    height: 100%;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+}
+
+/* ============================= */
+/* Media elements */
+/* ============================= */
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+}
+
+/* ============================= */
+/* Typography */
+/* ============================= */
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+cite {
+    font-style: normal;
+}
+
+/* ============================= */
+/* Lists */
+/* ============================= */
+
+ul,
+ol,
+dd,
+menu {
+    list-style: none;
+}
+
+/* ============================= */
+/* Links */
+/* ============================= */
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+/* ============================= */
+/* Forms */
+/* ============================= */
+
+input,
+button,
+optgroup,
+textarea,
+select,
+fieldset {
+    margin: 0;
+    border-width: 0;
+    font-family: inherit;
+    font-size: inherit;
+    text-transform: none;
+    overflow: visible;
+}
+
+/* remove default button styling */
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* allow text selection in inputs */
+
+input,
+textarea {
+    -webkit-user-select: auto;
+    user-select: auto;
+}
+
+/* placeholder */
+
+::placeholder {
+    color: unset;
+}
+
+/* ============================= */
+/* Hidden attribute */
+/* ============================= */
+
+[hidden] {
+    display: none;
+}
+
+/* ============================= */
+/* React / SPA stacking context */
+/* ============================= */
+
+#root,
+#__next {
+    isolation: isolate;
+}
