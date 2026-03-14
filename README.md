@@ -1,5 +1,4 @@
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/nani-reset)
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/nani-reset)
 ![license](https://img.shields.io/npm/l/nani-reset)
 [![npm](https://img.shields.io/npm/v/nani-reset)](https://www.npmjs.com/package/nani-reset)
 
@@ -23,6 +22,12 @@ npm install nani-reset
 ```
 
 then import it in your project:
+
+the default import is the minified version
+
+```css
+@import "nani-reset";
+```
 
 ```css
 @import "nani-reset/reset.css";
