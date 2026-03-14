@@ -26,7 +26,7 @@
     "reset.css",
     "reset.min.css"
   ],
-  "style": "reset.css",
+  "style": "reset.min.css",
   "scripts": {
     "build": "cleancss -o reset.min.css reset.css"
   },
