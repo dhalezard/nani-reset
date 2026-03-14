@@ -43,12 +43,20 @@
 html,
 body {
     height: 100%;
-    line-height: 1.5;
     scroll-behavior: smooth;
 }
 
 body {
     min-height: 100vh;
+    line-height: 1.5;
+}
+
+/* respect reduced motion preferences */
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
 }
 
 /* ============================= */
@@ -104,7 +112,6 @@ menu {
 /* Links */
 /* ============================= */
 
-a,
 button {
     cursor: pointer;
 }
@@ -126,10 +133,17 @@ textarea,
 select,
 fieldset {
     border-width: 0;
-    font-family: inherit;
-    font-size: inherit;
+    font: inherit;
     text-transform: none;
     overflow: visible;
+}
+
+fieldset {
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
 }
 
 /* remove default button styling */
