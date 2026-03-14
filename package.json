@@ -1,0 +1,20 @@
+{
+  "name": "nani-reset",
+  "version": "1.0.0",
+  "description": "A minimal, modern and consistent CSS reset",
+  "author": "Daniel Alejandro Hernandez Alezard",
+  "license": "MIT",
+  "main": "reset.css",
+  "keywords": [
+    "css",
+    "css-reset",
+    "reset",
+    "normalize",
+    "modern-css",
+    "frontend"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dhalezard/nani-reset.git"
+  }
+}
