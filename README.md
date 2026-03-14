@@ -1,6 +1,6 @@
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/nani-reset)
-![license](https://img.shields.io/npm/l/nani-reset)
-[![npm](https://img.shields.io/npm/v/nani-reset)](https://www.npmjs.com/package/nani-reset)
+[![npm version](https://img.shields.io/npm/v/nani-reset)](https://www.npmjs.com/package/nani-reset)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/nani-reset)](https://bundlephobia.com/package/nani-reset)
+[![license](https://img.shields.io/npm/l/nani-reset)](https://github.com/dhalezard/nani-reset/blob/main/LICENSE)
 
 
 # nani-reset ✨
